@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <header>
     <nav class="navbar navbar-expand-lg py-3" style="background-color:rgb(234, 172, 244);">
         <div class="container-fluid">
@@ -36,7 +36,9 @@
             </div>
         </div>
     </nav>
-
+    </header>
+    
+    <main class="flex-grow-1">
     <div class="container-fluid d-flex justify-content-center" style="padding-top: 20px">
     <div class="card" style="width: 50%; max-width: 800px; border: 1px solid #ccc; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
         <p class="h4 d-flex justify-content-center" style="padding-top: 10px">Login</p>
@@ -61,6 +63,7 @@
         </div>
     </div>
     </div>
+    </main>
     <br><br>
 
 
