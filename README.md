@@ -1,5 +1,7 @@
 A system where students can create their own e-profile which include uploading profile picture. In the e-profile, students can edit their personal information and also their academic information. Admin also have their own page which can view all student that registered. They can make change to the students data. Only students can log in to the student page, and they cannot access the admin page. Similarly, admins can only log in to the admin page. This system use phpMyAdmin to store the data and sql to run the query.
 
+This project is for educational purposes only and is not intended for commercial use.
+
 1. Homepage Interface:
    ![image](https://github.com/user-attachments/assets/ff38f47c-3b6c-4a30-a43a-356fc50c9dee)
 
